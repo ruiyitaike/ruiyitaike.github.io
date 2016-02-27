@@ -349,7 +349,7 @@ select {
 .heading h3 {
 	font-size: 2.5em;
 	font-weight: 700;
-	color: #146eb4;
+	/*color: #146eb4;*/
 	margin: 0;
 	font-family: 'Raleway-Bold';
 	text-transform: uppercase;
@@ -358,7 +358,7 @@ select {
 	margin: 0 auto;
 	font-size: 19px;
 	line-height: 1.5em;
-	color: #999;
+	/*color: #999;*/
 	width: 95%;
 	text-transform: uppercase;
 	text-align: left;
@@ -1885,6 +1885,7 @@ h2.b2,h1.b1,h3.b3,h4.b4,h5.b5 {
 
 .deep-style{
 	background-color: #3878AF;
+	color:#ffffff;
 }
 
 .light-style{
