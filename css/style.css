@@ -12,11 +12,11 @@
 }
 html, body{
     font-size: 100%;
-	background:	#fff;
+    background:	#fff;
 }
 body {
 	font-size: 100%;
-	font-family: 'Raleway-Regular';
+        font-family: "microsoft YaHei";
 }
 body a{
 	transition: 0.5s all ease;
@@ -45,7 +45,7 @@ body a:hover{
 /*--Header-Starts--*/
 .navigation {
 	float: right;
-	/*background-color: #000000;*/
+	background-color: #000000;
 }
 .logo {
 	float: left;
@@ -85,8 +85,8 @@ ul.navig li {
 }
 ul.navig li a {
 	font-size: 1.15em;
-	/*color: #fff;*/
-	font-weight: 800;
+	color: #fff;
+	font-weight: 400;
 	text-decoration: none;
 	padding: 15px 30px;
 }
@@ -170,7 +170,7 @@ ul.navig {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #3878AF;
+	background: #ffeb00;
 	-webkit-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transform-origin: 50% 0;
@@ -183,7 +183,7 @@ ul.navig {
 	transition-timing-function: ease-out;
 }
 .hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
-	color: #FFFFFF;
+	color: #403F45;
 }
 .hvr-bounce-to-bottom:hover:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {
 	-webkit-transform: scaleY(1);
@@ -192,8 +192,8 @@ ul.navig {
 	transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 ul.navig li a.active{
-	background:#3878AF;
-	color:#FFFFFF;
+	background:#ffeb00;
+	color:#403F45;
 }
 /* Shutter Out Horizontal */
 .hvr-shutter-out-horizontal {
@@ -326,7 +326,7 @@ select {
 	cursor: pointer;
 	font-weight: 600;
 	border: none;
-	background: #3878AF;
+	background: #ffeb00;
 	outline: none;
 }
 .bnr-btn input[type=submit]:hover{
@@ -349,17 +349,17 @@ select {
 .heading h3 {
 	font-size: 2.5em;
 	font-weight: 700;
-	/*color: #146eb4;*/
+	color: #146eb4;
 	margin: 0;
 	font-family: 'Raleway-Bold';
 	text-transform: uppercase;
 }
 .why-top p {
 	margin: 0 auto;
-	font-size: 19px;
-	line-height: 1.5em;
-	/*color: #999;*/
-	width: 95%;
+	font-size: 18px;
+	line-height: 1.8em;
+	color: #999;
+	width: 99%;
 	text-transform: uppercase;
 	text-align: left;
 }
@@ -824,7 +824,7 @@ p.admin {
 	color:#fff;
 }
 .footer-top p a:hover{
-	color:#3878AF;
+	color:#ffeb00;
 }
 /*--footer-end--*/
 /*--typo-start--*/
@@ -883,7 +883,7 @@ h3.ghj {
 	height: 25px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/top-arrow.png) no-repeat;
+	background: url(../imgs/top-arrow.png) no-repeat;
 }
 /*--media-quaries-starts-here--*/
 @media (max-width:1440px){
@@ -1882,12 +1882,3 @@ h2.b2,h1.b1,h3.b3,h4.b4,h5.b5 {
 }
 }
 /*--media-quaries-starts-here--*/
-
-.deep-style{
-	background-color: #3878AF;
-	color:#ffffff;
-}
-
-.light-style{
-	background-color: #FFFFFF;
-}
